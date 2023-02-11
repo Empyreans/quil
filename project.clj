@@ -15,7 +15,7 @@
                  [quil/processing-dxf "4.1.2"]
                  [quil/processing-svg "4.1.2"]
                  [quil/joglamp-fat "2.4.0"]
-                 [cljsjs/p5 "0.9.0-0"]
+                 [cljsjs/p5 "1.4.0-0"]
                  [com.lowagie/itext "2.1.7"
                   :exclusions [bouncycastle/bctsp-jdk14]]
                  [org.bouncycastle/bctsp-jdk14 "1.38"]
@@ -61,8 +61,8 @@
                              :source-paths ["test/cljs" "test/clj/quil/test_util.clj"]
                              :ring {:handler test-server/app}
                              :dependencies [[prismatic/dommy "1.1.0"]
-                                            [org.clojure/clojure "1.10.1"]
-                                            [org.clojure/clojurescript "1.10.520"]]
+                                            [org.clojure/clojure "1.11.1"]
+                                            [org.clojure/clojurescript "1.11.60"]]
 
                              :cljsbuild
                              {:builds [
